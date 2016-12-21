@@ -5,12 +5,15 @@ import * as _ from 'lodash';
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit{
 
+  constructor () {
+
+  }
+
   ngOnInit() {
-    console.log('lodash version:', _.VERSION);
   }  
 
 }

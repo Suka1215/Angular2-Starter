@@ -4,9 +4,10 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
+    "typeCheck": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "lib": ["es2015", "dom"],
+    "lib": ["es2015", "es6", "dom"],
     "noImplicitAny": true,
     "suppressImplicitAnyIndexErrors": true
   },
